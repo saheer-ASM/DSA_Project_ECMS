@@ -20,6 +20,9 @@ class Program
             new Product(11, "Laptop", "Electroncs", 6400),
             new Product(12, "Laptop", "Electroncs", 6500),
             new Product(13, "Laptop", "Electronics", 1300),
+           
+              new Product(14, "Laptop", "Electroncs", 64500)
+
             new Product(14, "Laptop", "Electroncs", 6400),
 
         };
