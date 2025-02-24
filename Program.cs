@@ -18,8 +18,7 @@ class Program
             new Product(9, "Laptop", "Electroncs", 6500),
             new Product(10, "Laptop", "Electroncs", 6300),
             new Product(11, "Laptop", "Electroncs", 6400),
-            new Product(12, "Laptop", "Electroncs", 6500),
-            new Product(14, "Iphone", "Electroncs", 3500),
+            new Product(12, "Laptop", "Electroncs", 6500)
 
         };
 
