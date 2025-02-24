@@ -11,7 +11,11 @@ class Program
             new Product(2, "Phone", "Electronics", 800),
             new Product(3, "Book", "Stationery", 30),
             new Product(4, "Mouse", "Accessories", 25),
-            new Product(5, "Keyboard", "Accessories", 50)
+            new Product(5, "Keyboard", "Accessories", 60),
+            new Product(6, "Phone", "Electronics", 900),
+            new Product(7, "Book", "Stationery", 30),
+            new Product(8, "Laptop", "Electronics", 1300),
+
         };
 
         // Sorting by Price (Bubble Sort)
