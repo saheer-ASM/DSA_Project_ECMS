@@ -28,7 +28,9 @@ namespace DSA_Project_ECMS
         {
             T[] newItems = new T[items.Length * 2];
             for (int i = 0; i < items.Length; i++)
+            {
                 newItems[i] = items[i];
+            }
             items = newItems;
         }
 

@@ -36,7 +36,7 @@ namespace DSA_Project_ECMS
 
             while (iLeft < leftSize && iRight < rightSize)
             {
-                if (string.Compare(leftArray[iLeft].Name, rightArray[iRight].Name) <= 0)
+                if (CompareString.Campare(leftArray[iLeft].Name, rightArray[iRight].Name) /*only true when leftarray is less then right array*/)
                     products[iMerge++] = leftArray[iLeft++];
                 else
                     products[iMerge++] = rightArray[iRight++];

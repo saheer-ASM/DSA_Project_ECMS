@@ -25,7 +25,7 @@ namespace DSA_Project_ECMS
 
             for (int j = low; j < high; j++)
             {
-                if (string.Compare(products[j].Category, pivot.Category) < 0)
+                if (CompareString.Campare(products[j].Category, pivot.Category)/* only true when product.catagory < pivot.catagory */ )
                 {
                     i++;
                     Product temp = products[i];

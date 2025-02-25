@@ -24,12 +24,58 @@ namespace DSA_Project_ECMS
             }
         }
 
-        public static void PrintProducts(string title, Product[] products)
+
+        public static void PrintProductsLtH(string title, Product[] products)
         {
             Console.WriteLine($"\n{title}");
             foreach (var product in products)
                 Console.WriteLine(product);
         }
+
+
+
+        public static void PrintProductsHtL(string title, Product[] products)
+        {
+            Console.WriteLine($"\n{title}");
+            for (int k = products.Length - 1; k >= 0; k--)
+            {
+                Console.WriteLine(products[k]);
+            }
+        }
+
+
+
+
+        public static void PrintProductsL(string title, Product[] products ,int argprice)
+        {
+            Console.WriteLine($"\n{title}");
+            int k = 0;
+            while (products[k].Price <= argprice)
+            {
+                Console.WriteLine(products[k]);
+                k++;
+            }        
+        }
+
+
+
+
+        public static void PrintProductsH(string title, Product[] products, int argprice)
+        {
+            Console.WriteLine($"\n{title}");
+           
+            for (int i = 0; i < products.Length; i++)
+            {
+                if (products[i].Price >= argprice)
+                {
+                    Console.WriteLine(products[i]);
+                }
+            }
+        }
     }
+
+
+
+
 
 }
